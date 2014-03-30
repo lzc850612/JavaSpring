@@ -1,0 +1,9 @@
+com\ted\webapp\listener\StartupListenerTest.class
+com\ted\webapp\controller\UpdatePasswordControllerTest.class
+com\ted\webapp\controller\BaseControllerTestCase.class
+com\ted\webapp\filter\LocaleFilterTest.class
+com\ted\webapp\filter\MockFilterChain.class
+com\ted\webapp\controller\UserControllerTest.class
+com\ted\webapp\controller\SignupControllerTest.class
+com\ted\webapp\controller\PasswordHintControllerTest.class
+com\ted\webapp\controller\UserFormControllerTest.class
