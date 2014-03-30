@@ -27,6 +27,7 @@ public class ResetPasswordController extends BaseFormController {
     @RequestMapping(method = RequestMethod.GET)
     public ModelAndView handleRequest()
     {
+    	System.out.println("abc'ded!");
         return new ModelAndView();
     }
 }
