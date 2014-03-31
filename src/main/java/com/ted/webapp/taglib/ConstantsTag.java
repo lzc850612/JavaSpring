@@ -2,7 +2,7 @@ package com.ted.webapp.taglib;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-import org.appfuse.Constants;
+import com.ted.Constants;
 
 import javax.servlet.jsp.JspException;
 import javax.servlet.jsp.PageContext;

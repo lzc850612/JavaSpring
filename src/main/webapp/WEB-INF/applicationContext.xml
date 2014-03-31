@@ -16,7 +16,7 @@
     <!-- Add new Managers here -->
     
     <!-- Configure and Alternative PasswordTokenManager -->
-	<!-- <bean id="passwordTokenManager" class="org.appfuse.service.impl.PersistentPasswordTokenManagerImpl" autowire="default" /> -->
+	<!-- <bean id="passwordTokenManager" class="com.ted.service.impl.PersistentPasswordTokenManagerImpl" autowire="default" /> -->
  <bean id="mailSender" class="org.springframework.mail.javamail.JavaMailSenderImpl">
         <property name="host" value="${mail.host}"/>
         <property name="defaultEncoding" value="UTF-8"/>
@@ -36,7 +36,7 @@
             </props>
         </property>
     </bean>
-    <bean id="mailEngine" class="org.appfuse.service.MailEngine"> 
+    <bean id="mailEngine" class="com.ted.service.MailEngine"> 
         <property name="mailSender" ref="mailSender"/> 
         <property name="velocityEngine" ref="velocityEngine"/> 
         <property name="from" value="${mail.default.from}"/> 
