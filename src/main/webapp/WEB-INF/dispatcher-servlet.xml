@@ -26,7 +26,7 @@
         <property name="useCodeAsDefaultMessage" value="true"/>
     </bean> 
 
-    <context:component-scan base-package="com.ted.webapp.controller"/>
+    <context:component-scan base-package="com.ted.webapp"/>
 
     <!-- Configures the @Controller programming model -->
     <mvc:annotation-driven/>
